@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/red_fortune_diary_graph"
+    app:startDestination="@id/redFortuneDiaryLoadFragment">
+
+    <fragment
+        android:id="@+id/redFortuneDiaryLoadFragment"
+        android:name="com.redifor.diarysof.rijer.presentation.ui.load.RedFortuneDiaryLoadFragment"
+        android:label="RedFortuneDiaryLoadFragment" >
+        <action
+            android:id="@+id/action_redFortuneDiaryLoadFragment_to_redFortuneDiaryV"
+            app:destination="@id/redFortuneDiaryV"
+            app:popUpTo="@id/red_fortune_diary_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/redFortuneDiaryV"
+        android:name="com.redifor.diarysof.rijer.presentation.ui.view.RedFortuneDiaryV"
+        android:label="RedFortuneDiaryV" />
+</navigation>

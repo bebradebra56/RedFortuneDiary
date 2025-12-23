@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409090244626",
+    "project_id": "redfortubediary",
+    "storage_bucket": "redfortubediary.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409090244626:android:40ce397004222d003a58cb",
+        "android_client_info": {
+          "package_name": "com.redifor.diarysof"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fSjY-FC0XMjmG-RvIZGtTqi-RouFSo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
